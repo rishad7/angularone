@@ -1,0 +1,172 @@
+<div class="row">
+  <div class="col-md-12 col-xl-3">
+    <div class="card table-card" style="height: 150px;">
+      <div class="row-table">
+        <div class="col-sm-12 card-block-big">
+          <div class="row">
+            <div class="col-sm-4">
+              <div style="height:40px;width:40px;">
+                <span class="resource-barchart1"></span>
+              </div>
+            </div>
+            <div class="col-sm-8 text-center">
+              <h5 style="float: right;color: black;">Data Centers</h5>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="col-sm-3"></div>
+        <div style="text-align: right;padding-top: 13px;" class="col-sm-12">
+          <span style="color: green;">2</span>
+          <span style="margin-left: 7px;">more than last month</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12 col-xl-3">
+    <div class="card table-card" style="height: 150px;">
+      <div class="row-table">
+        <div class="col-sm-12 card-block-big">
+          <div class="row">
+            <div class="col-sm-4">
+              <div style="height:40px;width:40px;">
+                <i class="icofont icofont-network text-primary"></i>
+              </div>
+            </div>
+            <div class="col-sm-8 text-center">
+              <h5 style="float: right;color: black;">New Reports</h5>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="col-sm-3"></div>
+        <div style="text-align: right;padding-top: 13px;" class="col-sm-12">
+          <span style="color: green;">3</span>
+          <span style="margin-left: 7px;">more than last month</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12 col-xl-3">
+    <div class="card table-card" style="height: 150px;">
+      <div class="row-table">
+        <div class="col-sm-12 card-block-big">
+          <div class="row">
+            <div class="col-sm-4">
+              <div style="height:40px;width:40px;">
+                <i class="icofont icofont-network-tower text-primary"></i>
+              </div>
+            </div>
+            <div class="col-sm-8 text-center">
+              <h5 style="float: right;color: black;">Active Users</h5>
+              <span style="float: right;font-size: 20px;">6381</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="col-sm-3"></div>
+        <div style="text-align: right;" class="col-sm-12">
+          <span style="color: red;">534</span>
+          <span style="margin-left: 7px;">more than last month</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12 col-xl-3">
+    <div class="card table-card" style="height: 150px;">
+      <div class="row-table">
+        <div class="col-sm-12 card-block-big">
+          <div class="row">
+            <div class="col-sm-4">
+              <div style="height:40px;width:40px;">
+                <span class="resource-barchart1"></span>
+              </div>
+            </div>
+            <div class="col-sm-8 text-center">
+              <h5 style="float: right;color: black;">Customers</h5>
+              <span style="float: right;font-size: 20px;">132</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="col-sm-3"></div>
+        <div style="text-align: right;" class="col-sm-12">
+          <span style="color: green;">47</span>
+          <span style="margin-left: 7px;">more than last month</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="padding-right: 0px;" class="col-lg-6">
+    <div class="card">
+      <div class="card-block">
+        <app-world-map></app-world-map>
+      </div>
+    </div>
+  </div>
+  <div style="padding-left: 0px;" class="col-lg-6">
+    <div class="card" style="height: 541px;">
+      <div class="card-block">
+        your content here
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-12">
+    <div class="card">
+        <app-card [title]="'Notifications'" [blockClass]="'table-border-style'">
+          <span class="code-header">use class
+            <code>table</code> inside table element</span>
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th style="width: 150px;">Data Center</th>
+                  <th style="width: 800px;">Alert</th>
+                  <th>Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row"><input type="checkbox"><span style="margin-left: 10px;color: red;">DC 4</span></th>
+                  <td>CPU utilization high on host-01</td>
+                  <td>12:12 PM</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox"><span style="margin-left: 10px;color: red;">DC 2</span></th>
+                  <td>Datastore threshold crossed SAN-01</td>
+                  <td>2:17 AM</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox"><span style="margin-left: 10px;color: red;">DC 2</span></th>
+                  <td>CPU count on the VMs exceed the total cores on host-02</td>
+                  <td>12:12 PM</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox"><span style="margin-left: 10px;color: red;">DC 4</span></th>
+                  <td>CPU utilization high on host-01</td>
+                  <td>2:17 PM</td>
+                </tr>
+                <tr>
+                  <th scope="row"><input type="checkbox"><span style="margin-left: 10px;color: red;">DC 4</span></th>
+                  <td>Datastore threshold crossed SAN-01</td>
+                  <td>12:12 PM</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </app-card>
+      </div>
+  </div>
+
+
+
+
+</div>

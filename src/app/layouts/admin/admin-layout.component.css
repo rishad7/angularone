@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+aside.pcoded-slider.ng-sidebar {
+    top: 56px;
+}
+
+.slimscroll-wrapper, .scroll-window {
+    width: 100% !important;
+}
+
+.userlist-box.show {
+    display: -webkit-box;
+}
+
+.userlist-box.hide {
+    display: none;
+}
+
+footer{
+    text-align: center;
+    padding: 11px 0;
+    font-size: 16px;
+    border-top: 2px solid #eee;
+    height: 50px;
+}

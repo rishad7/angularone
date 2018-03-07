@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('live App', () => {
+describe('flat-lite App', () => {
   let page: AppPage;
 
   beforeEach(() => {
